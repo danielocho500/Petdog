@@ -1,0 +1,23 @@
+{
+  "name": "snmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.4",
+    "internal-ip": "^7.0.0",
+    "net-snmp": "^3.8.2",
+    "time-stamp": "^2.2.0"
+  }
+}
